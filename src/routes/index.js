@@ -2,7 +2,8 @@ import Following from '~/pages/Following';
 import Home from '~/pages/Home';
 import Upload from '~/pages/Upload';
 import Profile from '~/pages/Profile';
-import HeaderOnly from '~/components/Layout/HeaderOnly';
+import { HeaderOnly } from '~/components/Layout';
+
 //khoong can dang nhap vao duoc
 const publicRouter = [
     {

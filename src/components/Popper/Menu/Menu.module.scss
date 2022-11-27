@@ -1,0 +1,21 @@
+.menu-list {
+    width: 224px;
+    .btn_menu {
+        display: block;
+        margin-left: 0px !important;
+    }
+    .menu-PopperWrapper {
+        margin-top: 10px;
+        padding-bottom: 8px;
+    }
+}
+.btn_menu {
+    width: 100%;
+    text-align: start;
+    border-radius: 0;
+    font-weight: 600;
+    padding: 11px 16px;
+    &:hover {
+        background: rgba(22, 24, 35, 0.03);
+    }
+}
